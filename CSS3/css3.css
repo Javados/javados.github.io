@@ -1,0 +1,364 @@
+body{margin:0;
+     box-sizing: border-box;
+	 background-image: url("../image/fonNRC.png");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 font-size: 100%;
+}
+* {
+    box-sizing: border-box;
+	text-align:center;	
+}
+
+@font-face {
+    font-family: electrofont;
+	src: url("../fonts/electrofont.otf");
+}
+
+@font-face {
+    font-family: fontinform;
+	src: url("../fonts/fontinform.otf");
+}	
+.boxnerzh {
+	max-width: 1360px;
+	height: auto;
+	margin: auto;
+}
+
+.headerNerzh {
+    background-color: white;
+	background-image: url("../image/NerzhRaschetChik.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 2px 0px;
+	
+}
+
+.headerNerzh h1 {
+    text-shadow: 2px 2px 2px #019afe, 2px 2px 3px white;
+}
+
+#shapkaNRCmob {
+    width: 100%;
+	height: auto;
+	display: none;
+}	
+
+.conteinerInformTablo{
+    width: 100%;
+	height: 40px;
+	background-color: rgba(10, 136, 263, 0.7);
+	padding: 3px;
+	
+}
+
+#informI {
+    float: right;
+	width: 50px;
+	height: 33px;
+	background-color: #970709;
+	padding: 2px 5px;
+    cursor: pointer;	
+}
+
+#informI:hover {
+    background-color: #ad1609;
+}
+
+.prokladka {
+    float: right;
+	width: 28%;
+	height: 33px;
+}
+
+.tablo {
+    background-color: #0e0a09;
+	width: 40%;
+	height: 33px;
+	float: right;
+	border: 4px solid grey;
+	box-shadow: 2px 2px 5px; 
+    position: relative;	
+	overflow: hidden;
+}
+
+.begStroka {
+    width: 400px;
+	position: absolute;
+	background-color: #0e0a09;
+	color: #e23614;
+	text-shadow: 0 0 1px #231b15;
+	font-weight: bold;
+	bottom: 5px;
+	left: 535px;
+}
+
+#infoPanel {
+    width: 100%;
+	height: 550px;
+	background: #0290ff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(2, 144, 255, 0.7), #71d9ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(2, 144, 255, 0.7), #71d9ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(2, 144, 255, 0.7) #71d9ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(2, 144, 255, 0.7), #71d9ff); /* Standard syntax (must be last) */
+	display: none;
+	overflow: auto;
+	padding: 20px;
+	text-shadow: 0 0 0.4px white;
+}
+
+.conteinerNerzh {
+    width:32%;
+	height:auto;
+	float:left;
+	margin: 5px;
+	padding:3px;
+	text-align: center;
+	border-radius: 2px;
+	border: 1px solid #019afe;
+	box-shadow: 5px 4px 6px black;
+	background: #e6e6ff; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#3940f2, #e6e6ff); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#3940f2, #e6e6ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#3940f2, #e6e6ff); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(rgba(201, 208, 242, 0.9), #e6e6ff); /* Standard syntax (must be last) */
+}
+
+.conteinerNerzh:hover {
+    box-shadow: 3px 2px 3px 2px black;
+}
+
+.vitrinaimg {
+     max-width: 100%;
+     height: auto;
+	padding:3px;
+	border-radius: 2px;
+	border:1.5px solid #ba3c01;
+	background-color: #019afe;
+	box-shadow: 2px 2px 4px grey;
+	-webkit-filter: saturate(2);
+	filter: saturate(2);
+}
+
+.vitrinaimg:hover {
+    opacity: 0.95;
+	box-shadow: 2px 2px 4px 1px grey;
+	cursor: pointer;
+} 
+
+.vitrinaimg:active {
+    -webkit-filter: saturate(3);
+	filter: saturate(3);
+}
+.nadpisinerzh {
+    padding: 25px;
+	display: none;
+	
+}
+
+.nadpisinerzh2 {
+    padding: 35px 0;
+	margin: 5px;
+}
+.polavvoda {
+	max-width: 85px;
+	margin: 5px;
+	box-shadow: 2px 2px 4px grey;
+	transition: 0.6s;
+}
+
+
+
+.polavvoda:focus {
+    background-color: #0e0d0b;
+	color: white;
+}
+
+.viveskynerzh {
+    font-size: 1em;
+	margin: 5px;
+	text-shadow: 0 0 1px grey;
+}
+
+.boxzagolovok {
+    font-family: fontinform;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 3px;
+	text-shadow: 2px 1px 3px #1b6ef8;
+	color: #4139ef;
+}
+
+.buttonJavados {
+    
+    padding: 2px 15px;
+	float: right;
+	background-color: #019afe;
+	box-shadow: 2px 5px 4px grey;
+	font-weight: bold;
+	cursor: pointer;
+	text-shadow: 0 0 3px white;
+	
+	
+}
+
+.buttonJavados:hover {
+    background-color: #1276fe;
+}
+
+.buttonJavados:active {
+    background-color: #1276fe;
+	box-shadow: 1px 2px 3px;
+	transform: translateY(3px);
+	border: 1px solid #ba3c01;
+}
+
+#prokladkaMBox {
+    width: 100%;
+	height: 1px;
+	float: left;
+	animation-duration: 4s;
+}
+
+.prokladkaMbox2 {
+    width: 100%;
+	height: 10px;
+	float: left;
+}
+
+.prokladkaMbox3 {
+    width: 100%;
+	height: 39px;
+	float: left;
+}
+
+#footerNRC {
+	width: 100%;
+	
+}
+
+a>#bannerJavados {
+    max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	border: 1px solid #472cee;
+	box-shadow: 2px 3px 6px black;	
+}
+
+a>#bannerJavados:hover {
+    cursor: pointer;
+	box-shadow: 2px 3px 6px 1px black;
+}
+.footerBoxs {
+     width:32%;
+	height:185px;
+	float: left;
+	margin: 5px;
+	padding:3px;
+	text-align: center;
+	
+}
+
+#monitorRezult {
+    background-image: url("../image/MonitirRezult.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2px 0px;
+	color: #fda916;
+	padding: 40px 25px;
+	font-size: 0.7em;
+	font-family: electrofont;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+	border: 0.5px solid black;
+	border-radius: 3px;
+	box-shadow: 5px 4px 6px black;
+	overflow: auto;
+	
+}
+
+#monitorRezult:hover {
+    box-shadow: 3px 2px 3px 1px black;
+}
+
+.blokSpokazat {
+    width: 100%;
+	height: auto;
+	display: block;
+	font-size: 0.65em;
+	padding: 5px;
+	font-family: fontinform;
+	font-weight: 900;
+	line-height: 1.4;
+	overflow: hidden;
+	text-shadow: 0 0 1px white;
+	background-color: rgba(20, 120, 250, 0.3);
+	overflow: auto;
+}
+
+.blokSpokazat:hover {
+    background-color: rgba(20, 120, 250, 0.4);
+}
+
+#footerbottom {
+    width: 100%;
+	height: auto;
+	background-color: #110af0;
+	float: left;
+}
+
+#footerbottom span {
+    float: right;
+	padding: 2px;
+	margin: 0px 20px;	
+}
+
+/* For tablets: */
+@media only screen and (max-width: 765px) {
+.conteinerNerzh {
+    width: 48%;
+	margin: 3px;
+ } 
+#monitorRezult {
+    font-size: 0.6em;
+ } 
+#prokladkaMBox {
+    display: none;
+ }
+ .footerBoxs {
+    width: 48%; 
+ }
+ .blokSpokazat {
+     font-size: 0.58em;
+ }
+ .tablo {
+     width: 60%;
+ }
+ .prokladka {
+     width: 10%;
+ }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+   .conteinerNerzh {
+       width: 98%;
+   }
+   .footerBoxs {
+    width: 98%; 
+ }
+ .headerNerzh {
+     background: -webkit-linear-gradient(rgba(2, 144, 255, 0.7), #71d9ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(2, 144, 255, 0.7), #71d9ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(2, 144, 255, 0.7) #71d9ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(2, 144, 255, 0.7), #71d9ff); /* Standard syntax (must be last) */
+ }
+ #shapkaNRCmob {
+     display: block;
+ }
+ .headerNerzh h1  {
+     font-size: 1.7em;
+	 text-shadow: 1px 1px 3px blue, 2px 2px 6px white;
+ }
+}

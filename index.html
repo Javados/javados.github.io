@@ -1,0 +1,205 @@
+   <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="JQuery/jquery-3.1.1.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="CSS3/css3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="image/favicon.png" type="image/png">
+  <title>НержРасчетЧик</title>
+  <script>
+
+$(document).ready(function(){
+       function runnStroka() {
+        var div = $(".begStroka");
+        div.animate({left: '-395px'}, 40000);
+        div.animate({top: '50px'}, 50);
+        div.animate({left: '535px'}, 50);
+        div.animate({top: '2px'}, 50, function(){
+        var div = $(".begStroka");
+        div.animate({left: '-395px'}, 50000);
+        div.animate({top: '50px'}, 50);
+        div.animate({left: '535px'}, 50);
+        div.animate({top: '2px'}, 50, runnStroka); });
+  }; 
+  runnStroka();
+  $("#informI").click(function() {
+    $("#infoPanel").slideToggle(1500);  
+  });
+  $(".vitrinaimg").click(function() {
+     $(".nadpisinerzh").slideToggle(400);
+	 $(".prokladkaMbox2").slideToggle(400);
+	 $(".prokladkaMbox3").slideToggle(400);
+  });
+});
+</script>
+<script src="javaScript/javaScript.js"></script>
+  
+  </head>
+
+<body>
+ <audio id="porezatmp3"><source type="audio/mpeg" src="sounds/Porezka.mp3"/></audio>
+ <audio id="vzvesitmp3"><source type="audio/mpeg" src="sounds/Vzveshivanie.mp3"/></audio>
+   <div class="boxnerzh">
+    <div class="headerNerzh">
+	 <img id="shapkaNRCmob" src="image/NerzhRaschetChik.png" width="600px">
+	   <h1>НержРасчетЧик</h1>
+	   </div>
+	<div class="conteinerInformTablo">
+	  <button id="informI"><i class="fa fa-info" style="font-size:25px;color:#ffef00;"></i></button>
+	  <div class="prokladka"></div>
+	  <div class="tablo">
+	    <div class="begStroka">Для получения подробной информации нажмите » <i  class="fa fa-info" style="color: #ffef00;"></i></div>
+	  </div>
+	</div> 
+    <div id="infoPanel">
+	  <h3>О программе НержРасчетЧик</h3>
+	  <ul>
+	  <li>НержРасчетЧик являеться кроссбраузерным приложением и работает в локальном хосте (не требует подключение к сети интернет).</li>
+	  <li><b>Чтобы открыть поля ввода нажмите на изображение труб, листов или кругов</b></li>
+	  <li>Все размеры указываються в мм.</li>
+	  <li>Можно использовать дробные числа.</li>
+	  <li><b>'Количество'</b> шт по умолчанию = 1шт.</li>
+	  </ul>
+	  <p><b>Важно! Длительность порезки которую высчитывает программа не являеться общим временем выполнения поставленной задачи по порезке а <br/>
+       являеться лишь техническим временем требуемым непосредственно для самого процесса резания от его начала и до конца,<br/>
+	   и не учитывает остальные действия порезочного процесса такие как например: разметка, установка , подготовка, транспортировка, обслуживание и т.д. </b></p> <br/>
+	  Логика программы отвечающая за порезку, построена на использовании 6 основных показателей, замеры которых были сняты в реальных рабочих условиях.<br/>
+      <h3>Основные показатели (Подробнее)</h3>
+      <h4>1. Расход	абразивных порезных кругов</h4>
+	  <img src="image/Krug_Novo_Abrasive.png" width="100px" height="100px" style="float: right">
+	  <img src="image/Krug_Kronenflex.png" width="100px" height="100px" style="float: left">
+       Расход кругов зависит от трех факторов:<br/>
+	   <ol>
+         <li> Качества круга</li>
+         <li> Твердости материала</li>
+         <li> Компетентности слесаря</li>
+		 </ol>
+       На практике одним кругом можно порезать от 120см2 до 200см2.<br/>
+       При вычислении расхода кругов учитываеться изготовитель круга - <b>'Novo Abrasive'</b><br/>
+	   при использовании которого средний объем порезки составляет <b>160см2</b>. <br/>
+       Лучшие показатели у производителя <b>'Klinspor Kronenflex'</b> = 170см2.<br/>
+        <h4>2. Расход ленточного полотна</h4>
+		<img src="image/Rashod_polotna.png" width="200px" height="100px" style="float: right">
+        Расход ленточного полотна зависит от множества факторов в первую очередь от компетентности оператора лент.пил.станка, <br/> случаев попадение на шлак,
+		разрывов полотна а также твердости материала.<br/>		
+        При расчете расхода полотна	учитываються полотна производителя <b>'Eberle'</b> марки <b>SP</b>, которые показали лучшие результаты чем полотна <br/>
+        других производителей за счет стойкости и твердости зубьев а также возможности произвести более 3 заточек.<br/>
+        Средние показатели отдачи полотен по аналогичным участкам других фирм составляют: 2500см2 - 12000см2.<br/> При том что 10000см2(1м2) являеться отличным 
+        результатом качества полотна. <br/>
+        У полотен Eberle SP показатели отдачи составляют 9000см2 - 25000см2. На практике учитывая случаи шлака и разрыва средняя отдача полотна составляет - <b>15000см2</b>,<br/>
+        что эквивалентно 75 резам 160мм круга.<br/>
+        <h4>3. Производительность резания ленточной пилой</h4> 
+		<img src="image/Pila_Myt.png" width="200px" height="100px" style="float: right">
+         На производительность резания ленточной пилой влияют множество факторов, но из них можно выделить три основные:<br/>
+		 <ol>
+		 <li> скорость движения полотна</li>
+		 <li> состояние полотна</li>
+		 <li>правильная подача</li>
+		 </ol>
+         При покупке лент.пил.станка 'Мыть' по умолчанию заводом изготовителем была установлена скорость движения полотна 16.5 м/мин<br/>
+		 а производительность резания составляла = 2см2/мин - 5см2/мин, средня производительность = 2.5см2/мин.<br/>
+         Иностранные лент.пил.станки имели намного лучшие показатели производительности = 6 см2/мин - 22 см2/мин(В зависимости от состояния полотна),<br/>
+		 в среднем = 12см2/мин. В ходе проведения работ по улучшению производительности пиления наших станков скорость движения полотна<br/>
+         была увеличена и доведена до стандартов в три этапа. На сегодняшний день скорость двыжения полотна в лент.пил.станках 'Мыть' составляет = 31.5 м/мин<br/>
+         что соответствует рекомендованым стандартам резания нержавеющих сплавов(24 - 34 м/мин). Производительность резания наших станков на сегодняшний день<br/>
+         составляет = 6 см2/мин - 15 см2/мин, в среднем = 7-8 см2/мин.  При расчете производительности резания в НержРасчетЧике используеться значение = 7см2/мин.
+         <h4>Производительность резания болгаркой</h4>
+		 <img src="image/Pr_Bolgarky.png" width="200px" height="100px" style="float: right">
+          Два основных фактора влияют на производительность резания болгаркой это качество круга и физическое состояние слесаря.<br/>
+          При расчете производительности резания болгаркой в данной программе используються данные порезных кругов марки: <b>'Novo Abrasive'</b><br/>
+          которые показывают результат = 8см2/мин - 11см2/мин, в среднем = <b>9см2/мин</b> с учетом времени по смене отработаного круга.<br/>
+		  Лучшие показатели у кругов <b>'Klinspor Kronenflex'</b> = 10см2/мин - 13см2/мин, в среднем = 11см2/мин.<br/>
+          <h4>Производительность резания токарным станком</h4>
+		  <img src="image/Dipy_stanky.png" width="200px" height="80px" style="float: right">
+          Расчет производительности резания токарным станком являеться наиболее приблизительным т.к. зависит от большого количества факторов.<br/>
+          В данной программе используються показатель = 22см2/мин что являеться абстрактно-средним показателем с точностью около 85%.<br/>
+          <h4>Производительность резания ручной плазмой</h4>
+		  <img src="image/Plazma.png" width="200px" height="100px" style="float: right">
+           Практика показала что производительность резания ручной плазмой напрямую зависит от толщины металла, и составляет = 40см2/мин - 120см2/мин.<br/>
+          В связи с большим количеством остановок в процессе резания в наших реальных условиях, был установлен средний показатель = <b>60см2/мин</b>.<br/>
+          Этот показатель в среднем показывает производительность резания плазмой в реальных условиях в 85% случаях.   		  
+           <h3>Взвешивание</h3>
+          Для процесса взвешивания в НержРасчетЧике используються стандартние арифметические и геометрические формулы.
+          Показатель плотности нержавеющих сплавов что используеться в программе составляет = 7900 кг/см3.		  
+	  
+	</div>	
+    <div class="conteinerNerzh">
+		<p class="boxzagolovok">Трубы</p>
+		  <img class="vitrinaimg" src="image/Truby.jpg" alt="трубы" width="250" height="200" title="Нажми"><br/>
+		  <div class="prokladkaMbox3"></div>
+	<div class="nadpisinerzh">	  
+			  <label class="viveskynerzh" for="diametrtruby">Диаметр трубы..</label>
+			  <input class="polavvoda" type="text" id="diametrtruby" placeholder=" в мм"/><br/>
+			  <label class="viveskynerzh" for="tolschinastenki">Толщина стенки</label>
+			  <input class="polavvoda" type="text" id="tolschinastenki" placeholder=" в мм"/><br/>
+			  <label class="viveskynerzh" for="kolichestvotrub">Количество.........<label/>
+			  <input class="polavvoda" type="text" id="kolichestvotrub" placeholder=" 1 шт"/><br/>
+	          <input class="buttonJavados" type="button" id="porezat" value="Порезать" onclick="porezka()"><br/>
+			  <label class="viveskynerzh" for="dlinatruby">Длинна трубы...<label/>
+			  <input class="polavvoda" type="text" id="dlinatruby" placeholder=" в мм"/><br/>
+			  <input class="buttonJavados" type="button" id="vzvesit" value="Взвесить" onclick="vzveshivanie()" />
+	</div>		  
+			  </div>
+	 
+	 
+	 <div class="conteinerNerzh">
+	    <p class="boxzagolovok">Листы</p>
+		<img class="vitrinaimg" src="image/Listy.jpg" alt="Листы" width="250" height="200" title="Нажми"><br/>
+		 <div class="prokladkaMbox3"></div>
+	<div class="nadpisinerzh">	
+		<label class="viveskynerzh" for="shirinalista">Ширина листа.<label/>
+		<input class="polavvoda" type="text" id="shirinalista"  placeholder="Длинна реза в мм"/><br/>
+		<label class="viveskynerzh" for="tolschinalista">Толщина листа<label/>
+		<input class="polavvoda" type="text" id="tolschinalista" placeholder=" в мм" /><br/>
+		<label class="viveskynerzh" for="kolichestvolistov">Количество......<label/>
+		<input class="polavvoda" type="text" id="kolichestvolistov" placeholder=" 1 шт" /><br/>
+		<input class="buttonJavados" type="button" id="knopkaporezatlisty" value="Порезать" onclick="porezkalistov()"><br/>
+		<label class="viveskynerzh" for="dlinalista">Длинна листа...<label/>	
+		<input class="polavvoda" type="text" id="dlinalista"  placeholder=" в мм" /><br/>
+		<input class="buttonJavados" type="button" id="vzvesitlisty" value="Взвесить" onclick="vzveshivanielistov()" />
+	</div>	
+		 </div>	 
+	 
+	 <div class="conteinerNerzh">
+	    <p class="boxzagolovok">Круги</p>
+	    <img class="vitrinaimg" src="image/Krugi.jpg" alt="Круги" width="250" height="200" title="Нажми"><br/>
+		 <div class="prokladkaMbox3"></div>
+	<div class="nadpisinerzh nadpisinerzh2">	
+		<label class="viveskynerzh" for="diametrkruga">Диаметр круга<label/>
+		<input class="polavvoda" type="text" id="diametrkruga" placeholder=" в мм" /><br/>
+		<label class="viveskynerzh" for="kolichestvokrugov">Количество.....<label/>
+		<input class="polavvoda" type="text" id="kolichestvokrugov" placeholder=" 1 шт" /><br/>
+		<input class="buttonJavados" type="button" id="porezatkrugi" value="Порезать" onclick="porezkakrugov()" /><br/>
+		<label class="viveskynerzh" for="dlinakrugov">Длинна круга..<label/>
+		<input class="polavvoda" type="text" id="dlinakrugov" placeholder=" в мм" /><br/>
+		<input class="buttonJavados" type="button" id="vzvesitkrugi" value="Взвесить" onclick="vzveshivaniekrugov()" />
+	</div>	
+		 </div>
+
+	<div id="prokladkaMBox"></div>	
+	<div id="footerNRC">
+	    <div class="footerBoxs">
+		<div class="blokSpokazat"><h3>Основные показатели</h3> 
+		     Расход обр. кругов = 1 шт / 160 см2<br/>
+			 Расход лент. полотна = 1 шт / 15 000 см2<br>
+			 Производит.лент.пилы = 7 см2 / мин<br/>
+			 Производит. болгарки = 9 см2 / мин<br/>
+			 Производит ток.станка = 22 см2 / мин<br/>
+			 Производит.ручн. плазмы = 60 см2 / мин<br/>
+		 </div>
+		</div>
+		<div class="footerBoxs" id="monitorRezult">
+		</div>
+		<div class="footerBoxs">
+		  <a href="http://javados.in.ua/" target="_blank"><img id="bannerJavados" src="image/BannerJavados200na200.gif" width="180px" height="180px"></a>
+        </div>
+     </div>
+	 <div class="prokladkaMbox2"></div>
+	 <div id="footerbottom"><span>&#169; Copyright Javados (v2.1) 2016</span></div>
+	 </div>
+	 
+</body>
+</html>
