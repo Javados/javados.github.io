@@ -2,11 +2,11 @@
 body{font-size:16px;}
 img{vertical-align:middle;border:0;}
 header{}
-.logo-header{padding-top:1em;padding-bottom:1em;}
+.logo-header{padding-top:1em;padding-bottom:1em;position:relative;}
 .logo-header span{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:2.8em;color:#FFC01B;font-weight:900;text-shadow:2px 2px 4px rgba(0, 0, 0, 0.4), 0px 0px 6px rgba(0, 153, 218, 0.2);}
 .logo-header .redforbosh{color:#b22b31;}
-.logo-img{position:relative;left:44%;width:100px;height:62px;background-image:url(../img/Logo_kond.png);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;}
-.logo-img img{position:absolute;top:15%;right:8%;}
+.logo-img{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;color:#FFC01B;}
+.logo-img img{position:absolute;top:19%;right:13%;}
 .menu-header,
 .menu-header ul{margin:0;}
 .menu-header ul li{float:left;list-style-type:none;padding-top:12px;}
