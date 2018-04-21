@@ -56,7 +56,9 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .main-tittle{font-family:'Exo 2',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:2em;font-weight:300;text-align:center;margin-top:2em;margin-bottom:2em;}
 .slider-wrap h4{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.25em;}
 .slider-wrap p{font-family:'EB Garamond',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.2em;}
-.slider-btn{margin-top:5%;}
+.slider-btn{margin-top:5%;display:block;width:225px;}
+.slider-btn:hover,
+.slider-btn:focus{text-decoration:none;color:#ffffff;}
 .wrap-upper-btn{position:relative;}
 .upper-btn{position:absolute;right:-5%;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
 .upper-btn a{display:block;width:40px;height:35px;background-image:url(../img/upper_btn.png);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;background-color:transparent;-webkit-border-radius:45%;border-radius:45%;}
@@ -83,16 +85,19 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .our-service-boxs .our-service-instalation,
 .our-service-boxs .our-service-servis{transition:-webkit-transform 0.5s;-webkit-transition:-webkit-transform 0.5s;-o-transition:transform 0.5s;transition:transform 0.5s;transition:transform 0.5s, -webkit-transform 0.5s;}
 .our-service-icon,
-.why-we-icon{width:50px;height:50px;font-size:22px;line-height:2.2;background-color:transparent;color:#0099da;border:solid 1px #ffc01b;-webkit-border-radius:5px;border-radius:5px;display:inline-block;margin:0 5px 5px 0;text-align:center;}
+.why-we-icon{width:70px;height:70px;font-size:22px;line-height:2.2;background-color:transparent;color:#0099da;border:solid 1px #0099da;-webkit-border-radius:5px;border-radius:5px;display:inline-block;margin:0 5px 5px 0;text-align:center;}
 .our-service-icon,
 .why-we-icon{-webkit-box-shadow:2px 2px 2px rgba(31, 30, 30, 0.2);box-shadow:2px 2px 2px rgba(31, 30, 30, 0.2);position:relative;}
+.why-we-icon{width:50px;height:50px;}
 .our-service-projecting .our-service-icon{background-image:url(../img/pencil_icon.png);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;}
 .our-service-instalation .our-service-icon{background-image:url(../img/montazh_icon.png);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;}
 .our-service-servis .our-service-icon{background-image:url(../img/service_icon.png);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;}
 .our-service-boxs h3{font-weight:300;font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;text-shadow:2px 2px 2px rgba(31, 30, 30, 0.3);position:relative;}
+.our-service-boxs h3 a{color:#333333;}
+.our-service-boxs h3 a:hover{text-decoration:none;}
 .our-service-article p{font-family:'EB Garamond',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;}
 .our-service-article .our-service-tittle-artikl,
-.reviews .reviews-tittle{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.4em;font-weight:300;color:#b22b31;text-align:center;}
+.reviews .reviews-tittle{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.4em;font-weight:300;color:#e80019;text-align:center;}
 .work-withous .work-withous-bgwrapper{background-image:url(../img/bg_how_works.jpg);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;background-attachment:fixed;}
 .work-withous .work-withous-list{color:#fff;text-shadow:2px 2px 2px rgba(0,0,0,0.6);}
 .work-withous .work-withous-h2::after{margin-left:20px;border-left:0;}
@@ -137,7 +142,7 @@ footer{background-color:#444;color:#eee;padding:0;margin-top:30px;border-top:sol
 .menu-footer ul li{float:left;width:33.333%;padding-bottom:3px;padding-top:3px;list-style-type:none;}
 .menu-footer ul li a{text-decoration:none;color:#eee;font-size:0.95em;-webkit-transition:all .25s ease;-o-transition:all .25s ease;transition:all .25s ease;}
 .menu-footer ul li a:hover{color:#0eb7ff;}
-.butn{padding:4px 35px;-webkit-border-radius:3px;border-radius:3px;color:#fff;background-color:#ffc01b;background:-webkit-gradient(linear, left top, left bottom, color-stop(5%, #e1b236), to(#ffc01b));background:-webkit-linear-gradient(top, #e1b236 5%, #ffc01b 100%);background:-o-linear-gradient(top, #e1b236 5%, #ffc01b 100%);background:linear-gradient(to bottom, #e1b236 5%, #ffc01b 100%);border:1px solid #ffc01b;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
+.butn{padding:6px 35px;-webkit-border-radius:3px;border-radius:3px;color:#fff;background-color:#ffc01b;background:-webkit-gradient(linear, left top, left bottom, color-stop(5%, #e1b236), to(#ffc01b));background:-webkit-linear-gradient(top, #e1b236 5%, #ffc01b 100%);background:-o-linear-gradient(top, #e1b236 5%, #ffc01b 100%);background:linear-gradient(to bottom, #e1b236 5%, #ffc01b 100%);border:1px solid #ffc01b;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;transition:all 0.5s ease;}
 .butn:hover{-webkit-transform:translateY(2px);-ms-transform:translateY(2px);transform:translateY(2px);}
 .contaktus-footer p{font-family:'EB Garamond',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;}
 .contaktus-footer p:last-child{color:#0eb7ff;}
