@@ -298,3 +298,48 @@ transform:none}}
 	transform: scale(1.2);
 	box-shadow: 0 4px 20px rgba(0,0,0,.3);
 }
+/*page compress 6000lw*/
+.compress6000lw-img {
+	width: 80%;
+    margin: 10% 0 0 auto;
+}
+.efficiencyh2 {
+	position: relative;
+	overflow: hidden;
+}
+.efficiencyh3 {
+	text-align: center;
+}
+.efficiencyh2::after {
+	position: absolute;
+    top: 55%;
+    overflow: hidden;
+    width: 100%;
+    height: 1px;
+    content: '\a0';
+    background-color: #ddd;
+    border-left: solid 20px #fff;
+}
+.compress6000lw-desc-ul,
+.compress6000lw-advantages-ul {
+	list-style: none;
+}
+.compress6000lw-desc-ul li,
+.compress6000lw-advantages-ul li {
+	margin-top: 10px;
+}
+.compress6000lw-desc-ul li::before,
+.compress6000lw-advantages-ul li:before {
+	content: "";
+	display: inline-block;
+	vertical-align: text-top;
+	width: 10px;
+	height: 12px;
+	border-top: 2px solid #FFC01B;
+	border-left: 2px solid #FFC01B;
+	transform: rotate(-140deg);
+	margin-right: 8px;
+}
+.compress6000lw-advantages {
+	margin-top: 40px;
+}
