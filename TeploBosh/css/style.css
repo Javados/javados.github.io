@@ -97,7 +97,7 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .our-service-boxs h3 a:hover{text-decoration:none;}
 .our-service-article p{font-family:'EB Garamond',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.1em;}
 .our-service-article .our-service-tittle-artikl,
-.reviews .reviews-tittle{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.4em;font-weight:300;color:#e80019;text-align:center;}
+.reviews .reviews-tittle{font-family:'Play',"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:1.4em;font-weight:300;color:#0099da;text-align:center;}
 .work-withous .work-withous-bgwrapper{background-image:url(../img/bg_how_works.jpg);background-repeat:no-repeat;-webkit-background-size:cover;background-size:cover;background-attachment:fixed;}
 .work-withous .work-withous-list{color:#fff;text-shadow:2px 2px 2px rgba(0,0,0,0.6);}
 .work-withous .work-withous-h2::after{margin-left:20px;border-left:0;}
@@ -291,7 +291,7 @@ transform:none}}
 	height: 50px;
 	-o-object-fit: cover;
 	object-fit: cover;
-	border: 1px solid #FFC01B;
+	border: 1px solid #0099da;
 	transition: transform 0.5s, box-shadow 0.5s;
 }
 .sheme-previmg a img:hover {
