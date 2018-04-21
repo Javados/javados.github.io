@@ -298,10 +298,25 @@ transform:none}}
 	transform: scale(1.2);
 	box-shadow: 0 4px 20px rgba(0,0,0,.3);
 }
-/*page compress 6000lw*/
+/*pages compress6000lw, compress6000aw, compress3000aws*/
+
+.compress6000lw-titledesc,
+.compress6000aw-titledesc {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.compress6000lw-titledesc p,
+.compress6000aw-titledesc p {
+	margin-top: -20px;
+	text-align: center;
+}
 .compress6000lw-img {
 	width: 80%;
     margin: 10% 0 0 auto;
+}
+.compress6000aw-img {
+	width: 80%;
+    margin: 0 0 0 auto;
 }
 .efficiencyh2 {
 	position: relative;
@@ -321,15 +336,18 @@ transform:none}}
     border-left: solid 20px #fff;
 }
 .compress6000lw-desc-ul,
-.compress6000lw-advantages-ul {
+.compress6000lw-advantages-ul,
+.compress6000aw-advantages-ul {
 	list-style: none;
 }
 .compress6000lw-desc-ul li,
-.compress6000lw-advantages-ul li {
+.compress6000lw-advantages-ul li,
+.compress6000aw-advantages-ul li {
 	margin-top: 10px;
 }
 .compress6000lw-desc-ul li::before,
-.compress6000lw-advantages-ul li:before {
+.compress6000lw-advantages-ul li::before,
+.compress6000aw-advantages-ul li::before {
 	content: "";
 	display: inline-block;
 	vertical-align: text-top;
@@ -341,5 +359,8 @@ transform:none}}
 	margin-right: 8px;
 }
 .compress6000lw-advantages {
+	margin-top: 40px;
+}
+.margintop40 {
 	margin-top: 40px;
 }
