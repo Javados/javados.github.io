@@ -48,8 +48,17 @@ $("#email_send").submit(function() {
 		});
 		return false;
 	}); 
-	$('.our-service-boxs').find('.our-service-projecting').on('click', function() {
+	$('.our-service-boxs').on('click', '.our-service-projecting', function() {
 		var url = "designing";
 		$(location).attr('href',url);
 	}) 
+	$('.our-service-boxs').on('click', '.our-service-instalation', function() {
+		var url = "installation";
+		$(location).attr('href',url);
+	})
+	$('.our-service-boxs').on('click', '.our-service-servis', function() {
+		var url = "services";
+		$(location).attr('href',url);
+	})
+
 });
