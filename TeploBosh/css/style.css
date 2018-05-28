@@ -455,6 +455,9 @@ label.error {
 	.logo-btnlink {
 		font-size: 13px;
 	}
+	.review-dropdown li {
+		min-width: 205px;
+	}
 }
 @media (max-width: 767px) {
 	.form-tittle p {
@@ -470,6 +473,13 @@ label.error {
 	}
 	label.error {
 		right: 9%;
+	}
+	.menu-header .review-dropdown {
+		left: 56%;
+	}
+	.menu-header .ourservice-dropdown li,
+	.menu-header .review-dropdown li {
+		margin-top: 5px;
 	}
 }
 @media (max-width: 683px) {
