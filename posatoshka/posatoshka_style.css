@@ -1,0 +1,142 @@
+body{font-size:18px;font-family:'Work Sans', 'Roboto', sans-serif;background:url(img/posatoshka_bg.jpg) center top;background-attachment:fixed;}
+h2{font-family:'Roboto Slab', serif;text-shadow:2px 2px 4px #000000;}
+h3{font-size:1.4em;font-family:'Ruslan Display', 'Roboto Slab', sans-serif;color:#fff;text-shadow:1.6px 1.6px 3.4px #000000;margin-top:3em;}
+h5{font-size:1em;color:#fff;text-shadow:1px 1px 2px #000000;margin-top:1em;margin-bottom:2em;}
+.run-container{width:100%;height:1.5em;position:relative;overflow:hidden;}
+.run-text{font-size:0.9em;position:absolute;color:orange;text-shadow:0 0 2px #fdfbfc;font-weight:300;bottom:2.7em;left:85em;webkit-animation:runstr 60s linear infinite;-webkit-animation:runstr 60s linear infinite;animation:runstr 60s linear infinite;}
+.heead-blok{background-image:url(img/whyus.jpg);background-repeat:no-repeat;background-size:100%;-webkit-box-shadow:8px 8px 8px #000;box-shadow:8px 8px 8px #000;}
+/*.top-banner-blok p{position:absolute;}*/
+.heead-row h1{font-family:'Ruslan Display', 'Roboto Slab', sans-serif;font-size:3em;font-weight:300;color:#f6fd5f;margin-top:1.4em;margin-bottom:0.5em;text-shadow:3px 3px 4px #000000, 2px 2px 5px #fff;position:relative;}
+.heead-row h1 img{-webkit-transition:all 1s;transition:all 1s;}
+.heead-row h1 img:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+/* .heead-row h1::after{content: url(img/logo_posatoshka_cristmas.png);display:inline-block;width:390px;height:100px; position:absolute;top:-10px;left:35%;} */
+.heead-row h2{font-family:'Ruslan Display', 'Roboto Slab', sans-serif;font-size:1.8em;color:#030d84;margin-bottom:1.4em;-webkit-animation:colorblick 1.5s infinite;animation:colorblick 1.5s infinite;}
+.heead-row h2 img{-webkit-transition:all 25s;transition:all 25s;}
+.heead-row h2 img:hover{-webkit-transform:rotate(31319deg);transform:rotate(31319deg);}
+.heead-row h4{font-size:1.6em;color:#030d84;padding-bottom:1.4em;text-shadow:1px 1px 2px #fff, 2px 2px 3px #000;}
+.our-faucet-bogatyr p{padding-bottom:4em;}
+.our-faucet-bogatyr p span{display:block;font-family:'Exo 2', 'Roboto Slab', sans-serif;font-size:1.8em;font-weight:bold;color:#f6fd5f;text-shadow:3px 3px 4px #000000, 2px 2px 5px #fff;}
+.row-what{margin-top:3em;margin-bottom:3em;}
+.row-what p{font-size:0.8em;color:#fff;margin-top:1em;cursor:pointer;}
+.row-what img{padding:5px;background-color:#04118c;border:1px solid #000;border-radius:5px;cursor:pointer;}
+.row-what p:hover{color:green;}
+.row-what img:hover{-webkit-box-shadow:3px 3px 3px #000;box-shadow:3px 3px 3px #000;}
+#whatBTC p{font-size:0.8em;color:#fff;}
+#whatBTCfaucet p{font-size:0.8em;color:#fff;}
+#whatBTCfaucet h5{text-align:center;}
+#whatPTCsite h5{text-align:center;}
+#whatPTCsite p{font-size:0.8em;color:#fff;}
+#howtoMake h5{text-align:center;}
+#howtoMake p{font-size:0.8em;color:#fff;}
+.flimg{float:right;}
+.fllimg{float:left;margin-right:2em;}
+.bestfauceth3::after{content:url(img/faucet_icon.png);width:25px;height:25px;position:absolute;}
+.rating-h3{text-align:center;}
+.rating-h5{text-align:center;}
+.rating-p{font-family:'Exo 2', 'Roboto Slab', sans-serif;font-size:0.85em;color:#60ed0c;text-shadow:1px 1px 2px #000000;background-color:rgba(1, 4, 101, 0.5);padding:3px;}
+.faucet-banner{margin-top:3em;}
+.faucet-banner img{padding:10px;background-color:#04118c;border:1px solid #000;border-radius:5px;}
+.reffer-header{width:76%;border:1px solid #000;border-radius:5px;background-color:#04118c;margin-top:1em;margin-bottom:1em;margin-left:12%;cursor:pointer;}
+.reffer-header h4{font-size:1.2em;color:#fff;text-align:center;}
+.reffer-header p{font-size:0.7em;color:#fff;text-align:right;margin-right:2em;}
+#refer p{color:#fff;font-size:0.9em;}
+.faucet-content h5{margin-left:20%;}
+.faucet-content img, .our-faucet-bogatyr p img{-webkit-box-shadow:1px 1px 3px #000;box-shadow:1px 1px 3px #000;}
+.our-faucet-bogatyr p img{margin-top:15px;}
+.faucet-content img:hover, .our-faucet-bogatyr p img:hover{-webkit-box-shadow:0px 0px 1px #000;box-shadow:0px 0px 1px #000;-webkit-transform:translateY(2px);transform:translateY(2px);}
+.faucet-content .javados-recommendet{position:absolute;right:15%;-webkit-box-shadow:0px 0px 0px #000;box-shadow:0px 0px 0px #000;width:25px;height:25px;}
+.faucet-120min p{color:#6870ba;margin-left:20%;margin-bottom:-0.5em;}
+.faucet-60min p{color:green;margin-left:20%;margin-bottom:-0.5em;}
+.faucet-30min, .faucet-action, .faucet-120min, .faucet-60min{margin-top:3em;}
+.faucet-30min p{color:orange;margin-left:20%;margin-bottom:-0.5em;}
+.faucet-action p{color:#60ed0c;margin-left:20%;margin-bottom:-0.5em;}
+.reklam-header img{margin-bottom:-1em;}
+.reklam-content{width:90%;height:auto;background-color:#04118c;}
+.reklam-item{margin-bottom:2em;}
+.reklam-item h6{font-size:1em;background-color:rgba(1, 4, 101, 0.8);color:#fff;text-shadow:1px 1px 2px #000000;padding:5px;margin-bottom:1.5em;}
+.reklam-item h4{font-size:1.1em;color:#fff;text-shadow:1px 1px 2px #000000;padding:5px;margin-bottom:1.5em;}
+.reklam-item p{font-size:0.8em;color:#fff;padding:10px;}
+.reklam-place1, .reklam-place2{width: 100%;overflow:auto;}
+.ptc-site-container{background-image:url(img/bg_minning_posatoshka.jpg);background-repeat:no-repeat;background-size:100%;background-attachment:fixed;}
+.selected-runet{background-image:url(img/background2.jpg);background-repeat:no-repeat;background-size:100%;background-attachment:fixed;padding:20px;}
+.ptc-rows{width:100%;margin:auto;}
+.item-ptc{width:125px;height:125px;display:inline-block;margin-top:2em;margin-left:11%;}
+.item-ptc a img{vertical-align:baseline;}
+.item-ptc span{font-family:'Exo 2', 'Roboto Slab', sans-serif;color:#fff;font-weight: 800;}
+.minning-container{background-image:url(img/bg_minning_posatoshka2.jpg);background-repeat:no-repeat;background-size:100%;background-attachment:fixed;}
+.row-wisdraw{width:50%;margin:auto;}
+.row-wisdraw p{color:#fff;font-size:0.9em;}
+.row-futer{margin-top:2em;position:relative;}
+.row-futer p{color:green;}
+.baner-home{float:right;border:1px solid #000;border-radius:15px;position:relative;bottom:-2em;}
+.baner-home:hover{-webkit-box-shadow:2px 2px 3px #000;box-shadow:2px 2px 3px #000;}
+.bot-footer{background-color:#053dff;}
+.label{font-size:0.7em !important;background-color:#5eb1fd;color:#2d2bb5;}
+.rocket-up{width:100%;margin:0 auto;}
+.desc-mining p{font-family:'Exo 2', 'Roboto Slab', sans-serif;font-size:0.85em;color:#60ed0c;text-shadow:1px 1px 2px #000000;background-color:rgba(1, 4, 101, 0.5);padding:3px;}
+.rocket-up li a{background:url(img/rocket_up.png) no-repeat;width:2.2em;height:3.3em;display:block;position:fixed;bottom:0.5em;right:0.5em;z-index:99;-webkit-transition:all 0.5s;transition:all 0.5s;}
+.rocket-up li a:hover{background-color:transparent;-webkit-transform:translateY(-15px);transform:translateY(-15px);}
+.rocket-up li a:focus{background-color:transparent;}
+.recvisit{margin-top:0.5em;}
+.copy-javados p{font-size:0.8em;float:right;color:#fff;margin-top:1em;}
+@media (max-width:479px){body{font-size:14px;}
+.heead-blok{background-size:cover;}
+.top-banner-blok{height: 60px;overflow: auto;}
+.top-banner-blok p{position:relative;}
+.heead-row h1{font-size:2.6em;text-shadow:2px 2px 3px #000000, 1px 1px 4px #fff;}
+/*.heead-row h1::after{content: url(img/bg_top_posatoshka_cr_mob.png);display:inline-block;width:300px;height:74px; position:absolute;top:-10px;left:2%;}*/
+.engine{display:none;}
+.heead-row h1 img{width:35px;height:35px;}
+.heead-row h2{font-size:1.5em;}
+.heead-row h2 img{width:20px;height:20px;}
+.heead-row h4{font-size:1.2em;text-shadow:1px 1px 2px #fff, 2px 2px 3px #000;}
+.reffer-header h4{font-size:1em;}
+.faucet-content img{width:80px;height:16px;}
+.faucet-content .javados-recommendet{right:0;}
+.item-ptc{width:auto;height:auto;}
+.row-wisdraw{width:70%;}
+.row-wisdraw img{width:180px;height:150px;}
+.reklam-content{width:100%;height:auto;}
+.reklam-header img{width:100%;height:auto;margin-top:2em;}
+.reklam-item{width:100%;}
+.reklam-item img{width:80%;height:auto;}
+.video-lesson iframe{margin-left:-3em;}
+.rocket-up li a{background-size:cover;right:0.5em;bottom:0.2em;}
+.baner-home{bottom:0;}
+}
+@media (min-width:480px) and (max-width:767px){body{font-size:14px;}
+.heead-blok{background-size:cover;}
+.top-banner-blok p{position:relative;}
+.heead-row h1{font-size:2.6em;text-shadow:2px 2px 3px #000000, 1px 1px 4px #fff;}
+.heead-row h1 img{width:35px;height:35px;}
+/*.heead-row h1::after{content: url(img/bg_top_posatoshka_cr_mob.png);display:inline-block;width:300px;height:74px; position:absolute;top:-10px;left:24%;}*/
+.heead-row h2{font-size:1.5em;}
+.heead-row h2 img{width:20px;height:20px;}
+.heead-row h4{font-size:1.2em;text-shadow:1px 1px 2px #fff, 2px 2px 3px #000;}
+.reffer-header h4{font-size:1em;}
+.faucet-content img{width:90px;height:16px;}
+.item-ptc{width:auto;height:auto;}
+.row-wisdraw{width:100%;}
+.rocket-up li a{background-size:cover;right:0.5em;bottom:0.2em;}
+}
+@media (min-width:768px) and (max-width:1023px){body{font-size:16px;}
+.heead-blok{background-size:cover;}
+.heead-row h1::after{left:25%;}
+.reklam-blok img{width:90%;height:auto;}
+.top-banner-blok p{position:relative;}
+.reklam-content{width:100%;height:auto;}
+.row-wisdraw img{width:100%;height:auto;}
+.video-lesson iframe{width:100%;}
+.rocket-up li a{background-size:cover;right:0.5em;bottom:0.2em;}
+}
+@media (min-width:1024px) and (max-width:1279px){body{font-size:16px;}
+.heead-blok{background-size:cover;}
+.heead-row h1::after{left:30%;}
+.reklam-blok img{width:90%;height:auto;}
+.reklam-content{width:100%;height:auto;}
+.rocket-up li a{background-size:cover;right:0.5em;bottom:0.2em;}
+}
+@media (min-width:1919px){body{font-size:24px;background-size:100%;}
+.heead-row h1::after{content: ""}
+.reklam-content{height:auto;}
+}

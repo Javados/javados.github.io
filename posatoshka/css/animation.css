@@ -1,0 +1,54 @@
+@-webkit-keyframes threedeani{0%{}
+100%{-webkit-transform:rotateY(360deg) rotateZ(360deg) scale(1.2, 1.2);transform:rotateY(360deg) rotateZ(360deg) scale(1.1, 1.1);}
+}
+@keyframes threedeani{0%{}
+100%{-webkit-transform:rotateY(360deg) rotateZ(360deg) scale(1.2, 1.2);transform:rotateY(360deg) rotateZ(360deg) scale(1.1, 1.1);}
+}
+@-webkit-keyframes runstr{0%{left:85em;top:0px;}
+94%{left:-100em;top:0px;}
+96%{left:-100em;top:2.22em;}
+98%{left:85em;top:2.22em;}
+100%{left:85em;top:0px;}
+}
+@keyframes runstr{0%{left:85em;top:0px;}
+94%{left:-100em;top:0px;}
+96%{left:-100em;top:2.22em;}
+98%{left:85em;top:2.22em;}
+100%{left:85em;top:0px;}
+}
+@-webkit-keyframes colorblick{0%{color:#030d84;}
+25%{color:red;}
+50%{color:yellow;}
+75%{color:#fff;}
+100%{color:#030d84;}
+}
+@keyframes colorblick{0%{color:#030d84;}
+25%{color:red;}
+50%{color:yellow;}
+75%{color:#fff;}
+100%{color:#030d84;}
+}
+.slip_left, .slip_right, .slip_down, .slip_up, .increase{visibility:hidden;}
+.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft;animation-duration:1s;-webkit-animation-duration:1s;visibility:visible;}
+.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;animation-duration:1s;-webkit-animation-duration:1s;visibility:visible;}
+.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown;animation-duration:1s;-webkit-animation-duration:1s;visibility:visible;}
+.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight;animation-duration:1s;-webkit-animation-duration:1s;visibility:visible;}
+.fadeIncrease{-webkit-animation-name:fadeIncrease;animation-name:fadeIncrease;animation-duration:1s;-webkit-animation-duration:1s;visibility:visible;}
+@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,70%,0);transform:translate3d(0,70%,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,70%,0);transform:translate3d(0,70%,0)}
+100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes fadeIncrease{0%{opacity:0;-ms-transform:scale(0.1,0.1);-webkit-transform:scale(0.1,0.1);transform:scale(0.1,0.1);}
+100%{opacity:1;-ms-transform:scale(1,1);-webkit-transform:scale(1,1);transform:scale(1,1);}}
